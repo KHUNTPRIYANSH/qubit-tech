@@ -1,0 +1,138 @@
+#pro-sec {
+    background: #eee;
+    height: auto;
+    width: 100%;
+    position: relative;
+    left: 0;
+    display: flex;
+    /* padding: vh 0; */
+    justify-content: space-between;
+}
+
+
+.pro:hover {
+    /* backdrop-filter: blur(50px); */
+    background-size: 125%;
+}
+
+.pro {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+
+}
+
+
+
+.pro img {
+    position: relative;
+    top: 0 !important;
+    width: 100%;
+    display: block;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#pro-hd {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #1245AE;
+    background: #eee;
+    background: linear-gradient(to right, #03228F, #0E73E4);
+    font-family: var(--font-4) !important;
+    padding: 25px;
+    color: #fff;
+    /* padding-bottom: 0; */
+    text-transform: uppercase;
+}
+
+@media (max-width:600px) {
+    #pro-hd {
+        font-size: 1.5rem;
+    }
+
+    .swiper-slide {
+        border-color: transparent !important;
+    }
+
+    .swiper-slide img {
+        margin: 35px;
+        width: 80% !important;
+        /* width: 250px !important; */
+    }
+
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    height: fit-content !important;
+    /* width: 30% !important; */
+    border: 2.5px solid #1245AE;
+    /* box-shadow: 0 0 35px 1px #ffffff28; */
+    overflow: hidden;
+    /* margin: 5vh 35px; */
+    /* min-width: 150px; */
+    margin-bottom: 7vh;
+    display: grid;
+    place-items: center;
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.swiper-slide:hover .overlay {
+    opacity: 1 !important;
+}
+
+/* .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)) !important;
+}
+
+.overlay .text:hover {
+    background: linear-gradient(to right, #03228F, #0E73E4);
+    color: #fff;
+    border-color: transparent !important;
+}
+
+.overlay .text {
+    background: linear-gradient(to right, #1f3174, #1e5594);
+    color: #fff;
+
+    font-size: 0.8rem;
+    position: absolute;
+    font-weight: 700;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #1245AE;
+    transition: all 0.2s ease-in-out;
+    padding: 9px 25px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+} */

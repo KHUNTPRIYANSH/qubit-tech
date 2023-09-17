@@ -1,0 +1,121 @@
+.team {
+    padding: 10vh 10vw 15vh 10vw;
+}
+
+#ownerz {
+    /* background: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 7vh;
+}
+
+#tm-cd {
+    width: 27%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#tm-cd #prlx {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    display: inline-block;
+    overflow: hidden;
+    height: 600px;
+    /* gap: 15px; */
+}
+
+#tm-cd #prlx:hover .soc {
+    /* opacity: 1; */
+    bottom: 0;
+    left: 0;
+    z-index: 111;
+}
+
+#tm-cd #prlx img {
+    width: 100%;
+    transition: 0.35s ease-in;
+
+}
+
+#tm-cd #prlx:hover::after {
+
+    background: rgba(1, 1, 1, 0.38);
+}
+
+#tm-cd #prlx::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 99%;
+    width: 100%;
+    z-index: 11;
+    transition: 0.15s ease-in-out;
+    background: transparent;
+
+}
+
+#tm-cd #prlx:hover img {
+    transform: scale(1.1);
+}
+
+#tm-cd #prlx .soc>* {
+    font-size: 1.85rem;
+    color: white;
+}
+
+#tm-cd #prlx .soc {
+    width: 120%;
+    background: linear-gradient(to right, #03228F, #0E73E4);
+
+    gap: 22.5px;
+    padding: 14px 28px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    bottom: -45px;
+    left: -15px;
+    /* justify-content: center; */
+
+    /* opacity: 0; */
+    transition: 0.15s ease-in-out;
+    /* flex-direction: column; */
+    /* gap: 15px; */
+}
+
+
+#tm-cd #tr-name {
+    color: #0f43a2;
+    font-family: var(--font-9);
+    font-size: 1.7rem;
+    font-weight: 700;
+    /* transform: scale(1.1); */
+}
+
+#tm-cd:hover #tr-name {
+    color: #0c4fcc;
+    font-family: var(--font-9);
+    font-size: 1.7rem;
+    font-weight: 700;
+    /* transform: scale(1.1); */
+}
+
+#tm-cd #tr-post {
+    font-family: var(--font-9);
+    font-size: 1.1rem;
+    margin-top: -13px;
+    color: #4e4e4e;
+    /* transform: scale(1.1); */
+}
+
+#tm-cd:hover #tr-post {
+    color: #4e4e4e;
+    /* transform: scale(1.1); */
+}
