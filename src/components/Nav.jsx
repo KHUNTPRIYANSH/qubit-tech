@@ -24,7 +24,9 @@ const Nav = () => {
             <a href="https://www.instagram.com/_qubit.tech/" target="_blank">
               <InstagramIcon />
             </a>
+            <a href="https://www.linkedin.com/company/qubit-info" target="_blank">
             <LinkedInIcon />
+            </a>
             <a
               href="https://mail.google.com/mail/u/0/#inbox?compose=CrpPbDzHNDghcrCkVKTtJDrFcvRqPXDMLVMgSLPngxkRqLhmkNKlXpRjDGHRgxQHGfrFbSWxsFSvZVJKdWKg"
               target="_blank"
