@@ -24,7 +24,7 @@ const footer = () => {
             </div>
           </div>
           <div className="tm">
-            connect.qubit@gmail.com <br /> +91 97233 94996 / +91 94092 59856
+            connect.qubit@gmail.com <br /> +91 9723394996
           </div>
         </div>
         <div className="f1l">
@@ -32,7 +32,7 @@ const footer = () => {
           <a href="https://www.instagram.com/_qubit.tech/" target="_blank">
             <InstagramIcon />
           </a>{" "}
-          <a href="">
+          <a href="https://www.linkedin.com/company/qubit-info" target="_blank">
             <LinkedInIcon />
           </a>
           {/* <YouTubeIcon /> */}{" "}

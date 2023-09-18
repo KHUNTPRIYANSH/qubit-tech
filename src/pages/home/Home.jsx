@@ -97,9 +97,7 @@ const Home = () => {
         <section id="service" className="service">
           <div className="s-grid">
             <div className="s-t">
-              <h2 className="blue">Our Services</h2>
-              <h1 className="strong">One platform.</h1>
-              <h1 className="light">Build quickly.</h1>
+              <h2 className="blue strong">Our Services</h2>
               <div className="btn" id="#project">
                 Explore Projects
               </div>
