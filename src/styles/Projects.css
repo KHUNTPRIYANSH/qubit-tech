@@ -5,7 +5,7 @@
     position: relative;
     left: 0;
     display: flex;
-    /* padding: vh 0; */
+    padding:10vh 0;
     justify-content: space-between;
 }
 
@@ -56,6 +56,9 @@
 }
 
 @media (max-width:600px) {
+    #pro-sec {
+        padding: 15px 0;
+    }
     #pro-hd {
         font-size: 1.5rem;
     }
@@ -68,6 +71,9 @@
         margin: 35px;
         width: 80% !important;
         /* width: 250px !important; */
+    }
+    .hero-info {
+        margin-top: -10vh;
     }
 
 }

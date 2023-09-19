@@ -26,7 +26,7 @@ const Gal = () => {
           <img src="./imgs/g7.jpg" alt="" />
         </div>
         <div className="lay">
-          <img src="./imgs/g8.jpg" alt="" />
+          <img src="./imgs/g2.jpg" alt="" />
         </div>
       </div>
     </>
