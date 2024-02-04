@@ -5,28 +5,28 @@ const Gal = () => {
     <>
       <div id="gallery">
         <div className="lay">
-          <img src="./imgs/g1.jpg" alt="" />
+          <img src="./imgs/g1.jpg" loading="lazy" alt="" />
         </div>
         <div className="lay">
-          <img src="./imgs/g2.jpg" alt="" />
+          <img src="./imgs/g2.jpg" loading="lazy" alt="" />
         </div>
         <div className="lay">
-          <img src="./imgs/g3.jpg" alt="" />
+          <img src="./imgs/g3.jpg" loading="lazy" alt="" />
         </div>
         <div className="lay">
-          <img src="./imgs/g4.jpg" alt="" />
+          <img src="./imgs/g4.jpg" loading="lazy" alt="" />
         </div>
         <div className="lay">
-          <img src="./imgs/g5.jpg" alt="" />
+          <img src="./imgs/g5.jpg" loading="lazy" alt="" />
         </div>
         <div className="lay">
-          <img src="./imgs/g6.jpg" alt="" />
+          <img src="./imgs/g6.jpg" loading="lazy" alt="" />
         </div>
         <div className="lay">
-          <img src="./imgs/g7.jpg" alt="" />
+          <img src="./imgs/g7.jpg" loading="lazy" alt="" />
         </div>
         <div className="lay">
-          <img src="./imgs/g2.jpg" alt="" />
+          <img src="./imgs/g2.jpg" loading="lazy" alt="" />
         </div>
       </div>
     </>

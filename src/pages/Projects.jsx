@@ -9,11 +9,13 @@ import "swiper/css/pagination";
 import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
 
 const Projects = () => {
-  const [value, setValue] = useState(window.innerWidth < 600 ? 3 : 5);
+  const [value, setValue] = useState(window.innerWidth < 600 ? 3 : 3);
+  const [sp, setSp] = useState(window.innerWidth < 600 ? 0 : 30);
 
   useEffect(() => {
     const handleResize = () => {
-      setValue(window.innerWidth < 600 ? 1 : 5);
+      setValue(window.innerWidth < 600 ? 1 : 3);
+      setSp(window.innerWidth < 600 ? 0 : 30);
     };
 
     // Listen for the window resize event
@@ -33,34 +35,36 @@ const Projects = () => {
       </center>
       <div id="pro-sec">
         <Swiper
-          effect={"coverflow"}
+          // effect={"coverflow"}
           // centeredSlides={true}
-          autoplay={{
-            delay: 1500,
-            disableOnInteraction: false,
-          }}
-          //   slidesPerView={3}
+          
+          // autoplay={{
+          //   delay: 1500,
+          //   disableOnInteraction: false,
+          // }}
+            // slidesPerView={3}
           loop={true}
           slidesPerView={value}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-          }}
+          // coverflowEffect={{
+          //   rotate: 50,
+          //   stretch: 0,
+          //   depth: 100,
+          //   modifier: 0,
+          //   slideShadows: true,
+          // }}
           grabCursor={true}
           pagination={true}
           modules={[Autoplay, EffectCoverflow, Pagination]}
-          className="mySwiper"
+          className="mySwiper ss"
+          spaceBetween={sp}
         >
           <SwiperSlide>
             <a
-              href="https://priyanshkhunt.live/"
+              href="https://priyansh-khunt.vercel.app/"
               target="_blank"
               className="pro"
             >
-              <img src="./imgs/pro1.png" alt="" />
+              <img src="./imgs/pro/1.jpg" loading="lazy" alt="" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -69,7 +73,7 @@ const Projects = () => {
               target="_blank"
               className="pro"
             >
-              <img src="./imgs/pro2.png" alt="" />
+              <img src="./imgs/pro/2.jpg" loading="lazy" alt="" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -78,7 +82,7 @@ const Projects = () => {
               target="_blank"
               className="pro"
             >
-              <img src="./imgs/pro3.png" alt="" />
+              <img src="./imgs/pro/3.jpg" loading="lazy" alt="" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -87,7 +91,7 @@ const Projects = () => {
               target="_blank"
               className="pro"
             >
-              <img src="./imgs/pro4.png" alt="" />
+              <img src="./imgs/pro/4.jpg" loading="lazy" alt="" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -96,7 +100,7 @@ const Projects = () => {
               target="_blank"
               className="pro"
             >
-              <img src="./imgs/pro5.png" alt="" />
+              <img src="./imgs/pro/5.jpg" loading="lazy" alt="" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -105,7 +109,7 @@ const Projects = () => {
               target="_blank"
               className="pro"
             >
-              <img src="./imgs/pro6.png" alt="" />
+              <img src="./imgs/pro/6.jpg" loading="lazy" alt="" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -114,7 +118,7 @@ const Projects = () => {
               target="_blank"
               className="pro"
             >
-              <img src="./imgs/pro7.png" alt="" />
+              <img src="./imgs/pro/7.jpg" loading="lazy" alt="" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -123,12 +127,12 @@ const Projects = () => {
               target="_blank"
               className="pro"
             >
-              <img src="./imgs/pro8.png" alt="" />
+              <img src="./imgs/pro/8.jpg" loading="lazy" alt="" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
             <a href="https://ptfo.vercel.app/" target="_blank" className="pro">
-              <img src="./imgs/pro9.png" alt="" />
+              <img src="./imgs/pro/9.jpg" loading="lazy" alt="" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -137,7 +141,7 @@ const Projects = () => {
               target="_blank"
               className="pro"
             >
-              <img src="./imgs/pro10.png" alt="" />
+              <img src="./imgs/pro/10.jpg" loading="lazy" alt="" />
             </a>
           </SwiperSlide>
 

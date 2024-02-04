@@ -24,7 +24,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 530px) {
     .s-cd {
-        transform: scale(0.8) !important;
+        /* transform: scale() !important; */
     }
 
     .hero-info {
@@ -98,7 +98,14 @@
 
     .gd {
         gap: 15px !important;
+        display: flex;
+        flex-wrap: wrap;
     }
+.tec {
+    padding: 0;
+    padding-bottom: 30px;
+}
+
 }
 
 @media only screen and (max-width: 630px) {
@@ -111,8 +118,10 @@
     }
 
     .tec-f {
-        width: 150px;
-        height: 150px;
+        /* border: 2px solid red; */
+        width: 120px;
+        height: 120px;
+        margin: 0 7px;
     }
 
     .lt {

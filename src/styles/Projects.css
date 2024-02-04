@@ -1,5 +1,6 @@
 #pro-sec {
     background: #eee;
+    background: #f4f8f9;
     height: auto;
     width: 100%;
     position: relative;
@@ -54,54 +55,42 @@
     /* padding-bottom: 0; */
     text-transform: uppercase;
 }
-
-@media (max-width:600px) {
-    #pro-sec {
-        padding: 15px 0;
-    }
-    #pro-hd {
-        font-size: 1.5rem;
-    }
-
-    .swiper-slide {
-        border-color: transparent !important;
-    }
-
-    .swiper-slide img {
-        margin: 35px;
-        width: 80% !important;
-        /* width: 250px !important; */
-    }
-    .hero-info {
-        margin-top: -10vh;
-    }
-
-}
-
 .swiper-slide {
+    /* width: 30% !important; */
     background-position: center;
     background-size: cover;
     height: fit-content !important;
     /* width: 30% !important; */
-    border: 2.5px solid #1245AE;
+    /* border: 2.5px solid #1245AE; */
     /* box-shadow: 0 0 35px 1px #ffffff28; */
     overflow: hidden;
-    /* margin: 5vh 35px; */
+    /* margin: 35px; */
     /* min-width: 150px; */
     margin-bottom: 7vh;
-    display: grid;
-    place-items: center;
+    display: grid !important;
+    place-items: center !important;
+    }
+
+    .swiper-slide a {
+        width: 100%;
+        /* border: 2.5px solid #12ae77; */
 
 }
-
 .swiper-slide img {
+    /* border: 2.5px solid #ae1f12; */
     display: block;
     width: 100%;
 }
+.ss {
+    padding: 0 30px !important;
 
-.swiper-slide:hover .overlay {
+}
+
+/* .swiper-slide:hover .overlay {
     opacity: 1 !important;
 }
+
+*/
 
 /* .overlay {
     position: absolute;
@@ -141,4 +130,40 @@
     transform: translate(-50%, -50%);
     text-align: center;
     cursor: pointer;
-} */
+}
+
+*/@media (max-width:600px) {
+    #pro-sec {
+        /* padding: 15px 0; */
+        padding: 0 !important;
+        /* height: fit-content !important; */
+    }
+
+    #pro-hd {
+        font-size: 1.5rem;
+    }
+
+    .swiper-slide {
+        border-color: transparent !important;
+    }
+
+    .swiper-slide img {
+        /* margin: 35px; */
+        width: 100% !important;
+        /* width: 250px !important; */
+    }
+
+    .swiper-pagination {
+        margin-bottom: 100px;
+        z-index: 111;
+    }
+
+    .hero-info {
+        margin-top: -10vh;
+    }
+
+    .ss {
+        padding: 0 !important;
+    }
+
+}

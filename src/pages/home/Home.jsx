@@ -36,19 +36,19 @@ const Home = () => {
               Learn More
             </a>
           </div>
-          <img src="./imgs/h9-shape5.png" id="spin" alt="" />
-          <img src="./imgs/ziz.png" id="ziz" alt="" />
-          <img src="./imgs/h7-shape1.png" id="bounce" alt="" />
+          <img src="./imgs/h9-shape5.png" id="spin" loading="lazy" alt="" />
+          <img src="./imgs/ziz.png" id="ziz" loading="lazy" alt="" />
+          <img src="./imgs/h7-shape1.png" id="bounce" loading="lazy" alt="" />
           <div id="hm-img">
-            <img src="./imgs/h9-banner1.png" alt="" />
+            <img src="./imgs/h9-banner1.png" loading="lazy" alt="" />
           </div>
         </section>
         <section id="about" className="about">
           <div className="ab-left">
-            <img src="./imgs/h7-banner2.png" alt="" />
-            <img src="./imgs/ziz.png" id="ziz" alt="" />
+            <img src="./imgs/h7-banner2.png" loading="lazy" alt="" />
+            <img src="./imgs/ziz.png" id="ziz" loading="lazy" alt="" />
 
-            <img src="./imgs/h9-shape5.png" id="spin" alt="" />
+            <img src="./imgs/h9-shape5.png" id="spin" loading="lazy" alt="" />
           </div>
           <div className="ab-right">
             <div className="ab-data">
@@ -92,7 +92,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <img src="./imgs/h7-shape6.png" id="bounce" alt="" />
+          <img src="./imgs/h7-shape6.png" id="bounce" loading="lazy" alt="" />
         </section>
         <section id="service" className="service">
           <div className="s-grid">
@@ -220,40 +220,40 @@ const Home = () => {
           <div className="tt">Technologies We Use</div>
           <div className="gd">
             <div className="tec-f">
-              <img className="dk" src="./imgs/t1.png" alt="" />
-              <img className="lt" src="./imgs/t1.png" alt="" />
+              <img className="dk" src="./imgs/t1.png" loading="lazy" alt="" />
+              <img className="lt" src="./imgs/t1.png" loading="lazy" alt="" />
             </div>
             <div className="tec-f">
-              <img className="dk" src="./imgs/t2.png" alt="" />
-              <img className="lt" src="./imgs/t2.png" alt="" />
+              <img className="dk" src="./imgs/t2.png" loading="lazy" alt="" />
+              <img className="lt" src="./imgs/t2.png" loading="lazy" alt="" />
             </div>
             <div className="tec-f">
-              <img className="dk" src="./imgs/t3.png" alt="" />
-              <img className="lt" src="./imgs/t3.png" alt="" />
+              <img className="dk" src="./imgs/t3.png" loading="lazy" alt="" />
+              <img className="lt" src="./imgs/t3.png" loading="lazy" alt="" />
             </div>
             <div className="tec-f">
-              <img className="dk" src="./imgs/t3.svg" alt="" />
-              <img className="lt" src="./imgs/t3.svg" alt="" />
+              <img className="dk" src="./imgs/t3.svg" loading="lazy" alt="" />
+              <img className="lt" src="./imgs/t3.svg" loading="lazy" alt="" />
             </div>
             <div className="tec-f">
-              <img className="dk" src="./imgs/t8.png" alt="" />
-              <img className="lt" src="./imgs/t8.png" alt="" />
+              <img className="dk" src="./imgs/t8.png" loading="lazy" alt="" />
+              <img className="lt" src="./imgs/t8.png" loading="lazy" alt="" />
             </div>
             <div className="tec-f">
-              <img className="dk" src="./imgs/t5.png" alt="" />
-              <img className="lt" src="./imgs/t5.png" alt="" />
+              <img className="dk" src="./imgs/t5.png" loading="lazy" alt="" />
+              <img className="lt" src="./imgs/t5.png" loading="lazy" alt="" />
             </div>
             <div className="tec-f">
-              <img className="dk" src="./imgs/t6.png" alt="" />
-              <img className="lt" src="./imgs/t6.png" alt="" />
+              <img className="dk" src="./imgs/t6.png" loading="lazy" alt="" />
+              <img className="lt" src="./imgs/t6.png" loading="lazy" alt="" />
             </div>
             <div className="tec-f">
-              <img className="dk" src="./imgs/t7.svg" alt="" />
-              <img className="lt" src="./imgs/t7.svg" alt="" />
+              <img className="dk" src="./imgs/t7.svg" loading="lazy" alt="" />
+              <img className="lt" src="./imgs/t7.svg" loading="lazy" alt="" />
             </div>
             <div className="tec-f">
-              <img className="dk" src="./imgs/t9.png" alt="" />
-              <img className="lt" src="./imgs/t9.png" alt="" />
+              <img className="dk" src="./imgs/t9.png" loading="lazy" alt="" />
+              <img className="lt" src="./imgs/t9.png" loading="lazy" alt="" />
             </div>
           </div>
         </section>
