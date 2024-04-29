@@ -28,7 +28,7 @@
 #gallery .lay {
     width: 20%;
     height: 200px;
-    background: gold;
+    /* background: gold; */
     overflow: hidden;
     height: 130px;
 }

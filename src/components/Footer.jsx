@@ -11,7 +11,7 @@ const footer = () => {
     window.scrollTo(0, 0);
   }
   return (
-    <footer>
+    <footer id="fttttr">
       {" "}
       <div className="ftr1">
         <div className="f1r">
@@ -24,7 +24,7 @@ const footer = () => {
             </div>
           </div>
           <div className="tm">
-            connect.qubit@gmail.com <br /> +91 9723394996
+            connect.qubit@gmail.com <br /> +91 9409259856
           </div>
         </div>
         <div className="f1l">

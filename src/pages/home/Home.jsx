@@ -87,9 +87,9 @@ const Home = () => {
                 lead the way in software development, creating a seamlessly
                 connected world for businesses and individuals.
               </div>
-              <div className="btn" id="#ffftr">
+              <a className="btn" href="#ffftr">
                 Contact Us
-              </div>
+              </a>
             </div>
           </div>
           <img src="./imgs/h7-shape6.png" id="bounce" loading="lazy" alt="" />
