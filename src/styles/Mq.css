@@ -23,8 +23,44 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 530px) {
+    .parallax-effect-glare-scale {
+        width: 100% !important;
+        overflow-x: hidden;
+        min-width: fit-content !important;
+    }
+
+    .stl {
+        height: 45px !important;
+        width: 45px !important;
+    }
+
+    .s-data {
+        font-size: 1rem;
+        letter-spacing: 0.4px !important;
+    }
+
+    .stl>* {
+        font-size: 1.4rem !important;
+    }
+
+    .str {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .s-top {
+        gap: 15px !important;
+    }
     .s-cd {
+        min-height: fit-content;
+        padding: 20px !important;
+        gap: 7.5px !important;
         /* transform: scale() !important; */
+        width: 100% !important;
+        }
+
+        .service {
+            padding: 35px 17px !important;
     }
 
     .hero-info {
@@ -161,29 +197,57 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 968px) {
+ .nv-left,
+ .nv-right {
+     display: none;
+ }
+
+ .ham {
+     font: 2rem !important;
+     display: inline-block !important;
+ }
 
     #gallery,
     #sv,
-    .ftr2 {
+     {
         display: none !important;
     }
+.ftr2 .con-sec>* {
+    width: 100% !important;
+}
+
+.ftr2 .con-sec {
+    max-height: fit-content !important;
+    flex-direction: column !important;
+    /* display: none; */
+}
+
+.con-right canvas {
+    height: 600px !important;
+}
+
+.ftr1 {
+    /* margin-top: 500px; */
+}
+
+.f1r .logo {
+    display: none;
+}
+
 }
 
 @media only screen and (max-width: 768px) {
 
     /* ... */
-    .nv-left,
-    .nv-right {
-        display: none;
-    }
 
-    .ham {
-        font: 2rem !important;
-        display: inline-block !important;
-    }
+#fttttr {
+    padding: 0 !important;
+}
 
-
-
+.con-left .t-title {
+    text-align: center;
+    margin: 35px 0 15px 0;
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -345,16 +409,10 @@
 
     footer .ftr1 .f1l {
         gap: 12.5px;
-        justify-content: flex-start !important;
-        align-items: flex-start !important;
+        justify-content: center !important;
+        align-items: center !important;
         /* flex-direction: column !important; */
     }
-
-    .ftr2 {
-        display: none;
-    }
-
-
     .ftr3 {
         width: 100% !important;
         align-items: center;

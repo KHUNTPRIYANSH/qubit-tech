@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import Nav from "../../components/Nav";
 import "../../styles/Home.css";
 import Projects from "../Projects";
@@ -6,19 +6,41 @@ import LanguageIcon from "@mui/icons-material/Language";
 import DrawIcon from "@mui/icons-material/Draw";
 import AndroidIcon from "@mui/icons-material/Android";
 import AddchartIcon from "@mui/icons-material/Addchart";
-
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import MenuIcon from "@mui/icons-material/Menu";import CloseIcon from '@mui/icons-material/Close';
 import "../../styles/Prlx.scss";
 import Tilt from "react-parallax-tilt";
 import SecurityIcon from "@mui/icons-material/Security";
 import Gal from "../../components/Gal";
 import Team from "./Team";
+import HiddenNav from "../../components/HiddenNav"
+// import "../styles/Nav.css";
+import { IconButton } from '@mui/material';
 import Footer from "../../components/Footer";
 import "../../styles/Mq.css";
+// import { Bento } from "@mui/icons-material";
 // import { Add } from "@mui/icons-material";
+import Bento from "../../components/Bento";
+
 const Home = () => {
+  
+    const [isHiddenNavVisible, setIsHiddenNavVisible] = useState(false);
+  
+    const handleMenuClick = () => {
+      setIsHiddenNavVisible(true);
+    };
+  
+    const handleCloseClick = () => {
+      setIsHiddenNavVisible(false);
+    };
   return (
-    <div>
-      <Nav />
+    <div id="web-c">
+      <Nav onMenuClick={handleMenuClick} />
+    <HiddenNav isVisible={isHiddenNavVisible} onCloseClick={handleCloseClick} />
+    
       <main>
         <section id="home" className="hero">
           <div className="hero-info">
@@ -32,9 +54,12 @@ const Home = () => {
               applications to top-notch IT consulting, we navigate the digital
               landscape with confidence.{" "}
             </h6>
-            <a href="#about" className="btn">
+            <a href="#about" className="btn btn-grad">
               Learn More
             </a>
+                     
+        
+         
           </div>
           <img src="./imgs/h9-shape5.png" id="spin" loading="lazy" alt="" />
           <img src="./imgs/ziz.png" id="ziz" loading="lazy" alt="" />
@@ -215,7 +240,10 @@ const Home = () => {
           <Team />
         </section> */}
 
-        <Projects />
+<section>
+  <Bento/>
+</section>
+        {/* <Projects /> */}
         <section id="tec" className="tec">
           <div className="tt">Technologies We Use</div>
           <div className="gd">
@@ -259,7 +287,7 @@ const Home = () => {
         </section>
         <div id="contact">
           <section id="ffftr">
-            <Gal />
+            {/* <Gal /> */}
             <Footer />
           </section>
         </div>

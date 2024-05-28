@@ -54,7 +54,7 @@ const Projects = () => {
           // }}
           grabCursor={true}
           pagination={true}
-          modules={[Autoplay, EffectCoverflow, Pagination]}
+          modules={[ EffectCoverflow, Pagination]}
           className="mySwiper ss"
           spaceBetween={sp}
         >

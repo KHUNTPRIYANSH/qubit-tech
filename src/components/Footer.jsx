@@ -6,6 +6,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import Contact from "../components/Contact"
 const footer = () => {
   function handleClickScroll() {
     window.scrollTo(0, 0);
@@ -13,10 +14,13 @@ const footer = () => {
   return (
     <footer id="fttttr">
       {" "}
-      <div className="ftr1">
+     
+      <div className="ftr2">
+       <Contact/>
+      </div> <div className="ftr1">
         <div className="f1r">
           <div className="logo">
-            <img src="/imgs/1.png" alt="" />
+            Qubit Tech
           </div>
           <div className="loc">
             <div className="titl">
@@ -43,21 +47,6 @@ const footer = () => {
             <AlternateEmailIcon />
           </a>
         </div>
-      </div>
-      <div className="ftr2">
-        <input
-          type="text"
-          placeholder="Enter your email to contact us via email ..."
-        />
-        <a
-          className="btn"
-          href="https://mail.google.com/mail/u/0/#inbox?compose=CrpPbDzHNDghcrCkVKTtJDrFcvRqPXDMLVMgSLPngxkRqLhmkNKlXpRjDGHRgxQHGfrFbSWxsFSvZVJKdWKg"
-          target="_blank"
-        >
-          Send Mail
-          {/* <AlternateEmailIcon /> */}
-        </a>
-        {/* <input type="submit" value="Sign Up" className="btn" /> */}
       </div>
       <div className="ftr3">
         <div className="links">

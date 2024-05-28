@@ -56,97 +56,98 @@ footer {
     align-items: center;
     flex-direction: column;
     gap: 30px;
+}
+
+footer .ftr1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.titl {
+    text-align: center;
+    font-size: 1.2rem;
+    /* margin-left: -50px; */
+}
+
+.ftr1 .f1r {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-family: var(--font2) !important;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.f1l {
+    display: flex;
+    gap: 15px;
+}
+
+.f1l>a>* {
+    font-size: 2rem !important;
+}
+
+.ftr2 {
+    width: 100%;
+    display: flex;
+    /* border: 25px solid red; */
     }
 
-    footer .ftr1 {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-    }
+.ftr2 input:first-child {
+    flex: 1;
+    background: transparent;
+    padding: 13px 25px;
+    font-family: var(--font3);
+    font-size: 0.9rem;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    transition: 0.25s;
+}
 
-    .titl {
-        text-align: center;
-        font-size: 1.2rem;
-        /* margin-left: -50px; */
-    }
+.ftr2 input:first-child:hover {
+    border: 2px solid #191919;
+}
 
-    .ftr1 .f1r {
-        display: flex;
-        align-items: center;
-        gap: 50px;
-        font-family: var(--font2) !important;
-        font-weight: 400;
-        font-size: 1.1rem;
-    }
+.ftr2 input:last-child {
+    /* flex: 1; */
+}
 
-    .f1l {
-        display: flex;
-        gap: 15px;
-    }
+.ftr3 {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
 
-    .f1l>a>* {
-        font-size: 2rem !important;
-    }
+footer .links,
+footer a {
+    display: flex;
+    gap: 25px;
+    color: #121212;
+    font-weight: 600;
+    font-family: var(--font-7);
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
-    .ftr2 {
-        width: 100%;
-        display: flex;
-        border: 25px solid #ededed;
-    }
+footer .btn {
+    border: none;
+}
 
-    .ftr2 input:first-child {
-        flex: 1;
-        background: transparent;
-        padding: 13px 25px;
-        font-family: var(--font3);
-        font-size: 0.9rem;
-        outline: none;
-        border: 2px solid transparent;
-        border-radius: 3px;
-        transition: 0.25s;
-    }
+.custom-shape-divider-bottom-1679121643 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    /* background: red; */
+    line-height: 0;
+}
 
-    .ftr2 input:first-child:hover {
-        border: 2px solid #191919;
-    }
-
-    .ftr2 input:last-child {
-        /* flex: 1; */
-    }
-
-    .ftr3 {
-        width: 100%;
-            align-items: center;
-            justify-content: space-between;
-            display: flex;
-            }
-
-        footer .links,
-        footer a {
-            display: flex;
-            gap: 25px;
-            color: #121212;
-            font-weight: 600;
-            font-family: var(--font-7);
-            font-size: 1.2rem;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-
-        footer .btn {
-            border: none;
-        }
-
-    .custom-shape-divider-bottom-1679121643 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        /* background: red; */
-        line-height: 0;
-    }
 .custom-shape-divider-bottom-1679121643 svg {
     position: relative;
     display: block;
@@ -156,4 +157,22 @@ footer {
 }
 .custom-shape-divider-bottom-1679121643 .shape-fill {
     fill: #234cb4;
-    }
+}
+
+.loader canvas * {
+    width: 100%;
+}
+
+.loader canvas {
+    z-index: 1111111111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh !important;
+    width: 100vw !important;
+    overflow: hidden;
+    background: #41295a;
+    background: linear-gradient(to bottom, #1a1a42, #16163d, #16163d, #191947, #555493);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

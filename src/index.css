@@ -9,6 +9,8 @@
     }
 
     :root {
+        --blue : #0E73E4;
+        --blue-2:#03228F;
         --font-1: 'Anton',
             sans-serif;
         --font-2: 'Kanit',
